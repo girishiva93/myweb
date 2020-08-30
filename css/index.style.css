@@ -47,8 +47,7 @@ html {
 
 .intro {
   position: absolute;
-  top: 45%;
-  left: 5%;
+  top: 37%;
 }
 
 .intro-title {
@@ -339,4 +338,124 @@ html {
   font-size: 30px;
   margin-top: 50%;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* contact */
+
+.contact-row {
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 60px;
+  padding-bottom: 60px;
+  content: "";
+  display: table;
+  clear: both;
+  position: relative;
+  top: 40px;
+}
+
+.contact-col {
+  float: left;
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 47% !important;
+}
+.contact-heading {
+  font-size: 1.7rem;
+  position: relative;
+  margin-bottom: 20px;
+}
+.contact-heading::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -3px;
+}
+.bg-color {
+  background-color: rgb(73, 68, 78, 0.7);
+  height: 700px;
+}
+
+.contact-bg-img {
+  width: 100% !important;
+  height: auto;
+}
+#fname,
+#email,
+#subject,
+#number {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 20px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 20px;
+}
+#message {
+  width: 100%;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+.error {
+  font-size: 10px;
+}
+#submit {
+  background: #0078ff;
+  border: 0;
+  margin-left: 38%;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+#submit:hover {
+  box-shadow: 0 0 0 4px #cde1f8;
+  background: #0078ff;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.contact-details {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.social-media-row {
+  width: 55%;
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 20px;
+}
+.social-media-col {
+  width: 20% !important;
+  float: left;
+}
+
+.logo-social {
+  width: 80%;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  line-height: 1.4;
+  text-align: center;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+}
+
+.icon:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
 }
