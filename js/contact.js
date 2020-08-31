@@ -5,9 +5,9 @@ function validation() {
   const number = document.getElementById("number").value;
   const message = document.getElementById("message").value;
   const error = document.getElementsByClassName("error");
-  while (fullName.length != 1) {
-    error[0].style.display = "none";
-  }
+  // while (fullName.length != 1) {
+  //   error[0].style.display = "none";
+  // }
   if (fullName == "" || fullName.length <= 4) {
     error[0].style.display = "block";
   } else {
