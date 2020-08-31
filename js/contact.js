@@ -1,10 +1,10 @@
 const form = document.getElementById("form");
+const submit = document.getElementById("submit");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   checkInputs();
 });
-
 function checkInputs() {
   var fullName = document.getElementById("fname").value.trim();
   const email = document.getElementById("email").value.trim();
@@ -39,4 +39,7 @@ function checkInputs() {
     error[4].style.display = "none";
   }
   form.reset();
+  if (submit) {
+    alert("Thank You" + " " + fullName + " " + "For Keep in touch with me");
+  }
 }
