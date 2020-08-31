@@ -1,0 +1,193 @@
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 760px) {
+  /* Index.html start */
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .hero-img {
+    position: relative;
+  }
+
+  .cover-img {
+    background-attachment: fixed;
+  }
+
+  .intro {
+    position: absolute;
+    top: 35%;
+    left: 40px;
+  }
+
+  .intro-title {
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  .intro-subtitle {
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -20px;
+  }
+  /* index.html end */
+
+  /* About */
+  .row-about {
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 60px;
+    content: "";
+    display: table;
+    clear: both;
+    position: relative;
+    /* left: 12%; */
+  }
+  .col-about {
+    float: none;
+    margin-top: 40px;
+    width: 80% !important;
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+
+  .title-col {
+    width: 95%;
+    text-align: justify;
+    position: relative;
+  }
+  .downlaodcv {
+    width: 40%;
+    cursor: pointer;
+    color: white;
+    background-color: DodgerBlue;
+    margin-left: 0;
+    border: none;
+    height: 40px;
+    position: absolute;
+    top: 66%;
+    left: 70%;
+  }
+  .profile {
+    width: auto;
+    margin-bottom: 10px;
+    margin-left: 39%;
+    margin-right: auto;
+  }
+  .title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+  }
+  .title-box {
+    margin-bottom: 3rem;
+  }
+  .title-left {
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+  }
+  .title-left::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -8px;
+    margin-left: 20px;
+  }
+
+  .discrip {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  /* Skill test */
+  .u-center {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 0px;
+  }
+
+  .skills {
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .skill {
+    margin: 0;
+    position: relative;
+    width: 89%;
+  }
+
+  .skill__type {
+    color: black !important;
+    font-weight: 300;
+    font-size: 0.8em;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    width: 5em;
+  }
+
+  .skill__outer-bar,
+  .skill__inner-bar {
+    height: 0.75em;
+  }
+
+  .skill__outer-bar {
+    margin-top: 1em;
+    background: rgb(255, 230, 230);
+  }
+
+  .skill__inner-bar {
+    animation: fillBar 1s forwards;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+  }
+
+  .skill__inner-bar--100 {
+    width: 95%;
+    background: #f8a518;
+  }
+  .skill__inner-bar--90 {
+    width: 90%;
+    background: #18a6f8;
+  }
+  .skill__inner-bar--80 {
+    width: 80%;
+    background: #f8dd18;
+  }
+  .skill__inner-bar--70 {
+    width: 90%;
+    background: #8718f8;
+  }
+  .skill__inner-bar--60 {
+    width: 70%;
+    background: #49444e;
+  }
+  .skill__inner-bar--50 {
+    width: 95%;
+    background: #f818b5;
+  }
+
+  @keyframes fillBar {
+    to {
+      transform: scaleX(1);
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 480px) {
+}
