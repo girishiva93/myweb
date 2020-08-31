@@ -39,5 +39,5 @@ function checkInputs(e) {
     error[4].style.display = "none";
   }
   alert("Thank You" + " " + fullName + " " + "For Keep in touch with me");
+  document.getElementById("reset").reset();
 }
-document.getElementById("reset").preventDefault();

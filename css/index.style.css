@@ -215,7 +215,7 @@ html {
   position: absolute;
   height: 6px;
   background-color: #0078ff;
-  margin-left: 80px;
+  margin-left: 100px;
   width: 60px;
   bottom: -12px;
 }
@@ -316,6 +316,21 @@ html {
 .cover:hover .overlay {
   width: 100%;
 }
+.portfolio-bio {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  text-transform: uppercase;
+}
+.portfolio-bio::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  background-color: #0078ff;
+  margin-left: 140px;
+  width: 60px;
+  bottom: -12px;
+}
 
 .text {
   color: white;
@@ -331,6 +346,13 @@ html {
 
 .trek-webP {
   width: 100%;
+}
+
+.website-name {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .web-link {
@@ -378,11 +400,13 @@ html {
 .bg-color {
   background-color: rgb(73, 68, 78, 0.7);
   height: 700px;
+  position: relative;
 }
 
 .contact-bg-img {
   width: 100% !important;
   height: auto;
+  position: relative;
 }
 #fname,
 #email,
@@ -402,7 +426,6 @@ html {
   margin-bottom: 10px;
   padding-left: 15px;
 }
-
 .error {
   font-size: 15px;
   margin-top: -16px;
@@ -468,7 +491,7 @@ html {
   width: 80%;
 }
 
-.icon {
+.social-icon {
   height: 40px;
   width: 40px;
   font-size: 1.7rem;
@@ -480,9 +503,19 @@ html {
   transition: all 500ms ease;
 }
 
-.icon:hover {
-  background-color: #0078ff;
+.social-icon:hover {
+  background-color: rgb(0, 120, 255, 0.3) !important;
+  color: white !important;
+  box-shadow: 0 0 0 3px #cde1f8 !important;
+  transition: all 500ms ease !important;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
-  transition: all 500ms ease;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #0062d3;
 }
