@@ -413,7 +413,7 @@ html {
 #submit {
   background: #0078ff;
   border: 0;
-  margin-left: 38%;
+  margin-left: 28%;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
@@ -427,6 +427,22 @@ html {
   transition: 0.4s;
 }
 
+#reset {
+  background: #0078ff;
+  border: 0;
+  margin-left: 3%;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+#reset:hover {
+  box-shadow: 0 0 0 4px #cde1f8;
+  background: #0078ff;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
 .contact-details {
   margin-bottom: 10px;
   list-style-type: none;
