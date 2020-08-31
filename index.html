@@ -349,57 +349,61 @@
             <div class="contact-row">
               <div class="contact-col">
                 <h5 class="contact-heading">Send Message</h5>
-                <input
-                  type="text"
-                  id="fname"
-                  name="firstname"
-                  placeholder="Full Name"
-                  required="required"
-                />
-                <p class="error">The Name must be more than four letters</p>
-                <input
-                  type="text"
-                  id="email"
-                  name="email"
-                  placeholder="example@gmail.com"
-                  required="required"
-                />
-                <p class="error">Please write the email correctly</p>
-                <input
-                  type="subject"
-                  id="subject"
-                  name="subject"
-                  placeholder="Title"
-                  required="required"
-                />
-                <p class="error">The subject can not be empty</p>
-                <input
-                  type="number"
-                  id="number"
-                  name="number"
-                  placeholder="number:(+977) 9999-999-999"
-                  required="required"
-                />
-                <p class="error">
-                  The number length must be greater or equal to 10
-                </p>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="5"
-                  data-rule="required"
-                  data-msg="Please write something for us"
-                  placeholder="Message"
-                  required="required"
-                ></textarea>
-                <p class="error">Message length must be higher than 50 words</p>
-                <br />
-                <input
-                  onclick="validation()"
-                  id="submit"
-                  type="submit"
-                  value="Submit"
-                />
+                <form id="form" action="/" method="GET">
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Full Name"
+                    required="required"
+                  />
+                  <p class="error">The Name must be more than four letters</p>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="example@gmail.com"
+                    required="required"
+                  />
+                  <p class="error">Please write the email correctly</p>
+                  <input
+                    type="subject"
+                    id="subject"
+                    name="subject"
+                    placeholder="Title"
+                    required="required"
+                  />
+                  <p class="error">The subject can not be empty</p>
+                  <input
+                    type="number"
+                    id="number"
+                    name="number"
+                    placeholder="number:(+977) 9999-999-999"
+                    required="required"
+                  />
+                  <p class="error">
+                    The number length must be greater or equal to 10
+                  </p>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    data-rule="required"
+                    data-msg="Please write something for us"
+                    placeholder="Message"
+                    required="required"
+                  ></textarea>
+                  <p class="error">
+                    Message length must be higher than 50 words
+                  </p>
+                  <br />
+                  <input
+                    onsubmit="validation()"
+                    id="submit"
+                    type="submit"
+                    value="Submit"
+                  />
+                </form>
               </div>
               <div class="contact-col">
                 <h5 class="contact-heading">Get in Touch</h5>

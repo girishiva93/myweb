@@ -1,13 +1,18 @@
-function validation() {
-  var fullName = document.getElementById("fname").value;
-  const email = document.getElementById("email").value;
-  const subject = document.getElementById("subject").value;
-  const number = document.getElementById("number").value;
-  const message = document.getElementById("message").value;
+const form = document.getElementById("form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  checkInputs();
+});
+
+function checkInputs() {
+  var fullName = document.getElementById("fname").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const subject = document.getElementById("subject").value.trim();
+  const number = document.getElementById("number").value.trim();
+  const message = document.getElementById("message").value.trim();
   const error = document.getElementsByClassName("error");
-  // while (fullName.length != 1) {
-  //   error[0].style.display = "none";
-  // }
+
   if (fullName == "" || fullName.length <= 4) {
     error[0].style.display = "block";
   } else {
@@ -34,5 +39,3 @@ function validation() {
     error[4].style.display = "none";
   }
 }
-
-validation();
