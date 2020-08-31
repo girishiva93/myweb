@@ -402,6 +402,7 @@ html {
   margin-bottom: 10px;
   padding-left: 15px;
 }
+
 .error {
   font-size: 15px;
   margin-top: -16px;
@@ -429,6 +430,7 @@ html {
 .contact-details {
   margin-bottom: 10px;
   list-style-type: none;
+  cursor: pointer;
 }
 .social-media-row {
   width: 55%;
