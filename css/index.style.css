@@ -76,6 +76,7 @@ html {
   float: left;
   margin-top: 40px;
   width: 50% !important;
+  margin-bottom: 40px;
 }
 
 .title-col {
@@ -402,7 +403,11 @@ html {
   padding-left: 15px;
 }
 .error {
-  font-size: 10px;
+  font-size: 15px;
+  margin-top: -16px;
+  margin-left: 10px;
+  color: red;
+  display: none;
 }
 #submit {
   background: #0078ff;

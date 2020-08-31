@@ -358,7 +358,7 @@
                   placeholder="Full Name"
                   required="required"
                 />
-                <p class="error">this must me more than 4 </p>
+                <p class="error">The Name must be more than four letters</p>
                 <input
                   type="text"
                   id="email"
@@ -366,6 +366,7 @@
                   placeholder="example@gmail.com"
                   required="required"
                 />
+                <p class="error">Please write the email correctly</p>
                 <input
                   type="subject"
                   id="subject"
@@ -373,6 +374,7 @@
                   placeholder="Title"
                   required="required"
                 />
+                <p class="error">The subject can not be empty</p>
                 <input
                   type="number"
                   id="number"
@@ -380,6 +382,9 @@
                   placeholder="number:(+977) 9999-999-999"
                   required="required"
                 />
+                <p class="error">
+                  The number length must be greater or equal to 10
+                </p>
                 <textarea
                   id="message"
                   name="message"
@@ -389,8 +394,14 @@
                   placeholder="Message"
                   required="required"
                 ></textarea>
+                <p class="error">Message length must be higher than 50 words</p>
                 <br />
-                <input id="submit" type="submit" value="Submit" />
+                <input
+                  onclick="validation()"
+                  id="submit"
+                  type="submit"
+                  value="Submit"
+                />
               </div>
               <div class="contact-col">
                 <h5 class="contact-heading">Get in Touch</h5>
