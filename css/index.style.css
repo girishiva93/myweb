@@ -353,7 +353,7 @@ html {
   display: table;
   clear: both;
   position: relative;
-  top: 40px;
+  top: 60px;
 }
 
 .contact-col {
@@ -431,6 +431,10 @@ html {
   margin-bottom: 10px;
   list-style-type: none;
   cursor: pointer;
+}
+.contact-details a {
+  text-decoration: none;
+  color: #1e1e1e;
 }
 .social-media-row {
   width: 55%;
