@@ -38,4 +38,5 @@ function checkInputs() {
   } else {
     error[4].style.display = "none";
   }
+  form.reset();
 }
