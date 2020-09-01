@@ -350,65 +350,69 @@
             <div class="contact-row">
               <div class="contact-col">
                 <h5 class="contact-heading">Send Message</h5>
+
                 <form
                   name="contact"
                   method="POST"
                   data-netlify="true"
                   netlify-honeypot="bot-field"
+                  action="/thanks"
                 >
-                  <input name="form-name" value="contact" type="hidden" />
+                  <div id="form">
+                    <input name="form-name" value="contact" type="hidden" />
 
-                  <input
-                    type="text"
-                    name="name"
-                    id="fname"
-                    placeholder="Full Name"
-                    required="required"
-                  />
-                  <p class="error">The Name must be more than four letters</p>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="example@gmail.com"
-                    required="required"
-                  />
-                  <p class="error">Please write the email correctly</p>
-                  <input
-                    type="subject"
-                    name="subject"
-                    id="subject"
-                    placeholder="Title"
-                    required="required"
-                  />
-                  <p class="error">The subject can not be empty</p>
-                  <input
-                    type="number"
-                    name="number"
-                    id="number"
-                    placeholder="number:(+977) 9999-999-999"
-                    required="required"
-                  />
-                  <p class="error">
-                    The number length must be greater or equal to 10
-                  </p>
-                  <textarea
-                    type="message"
-                    name="message"
-                    id="message"
-                    rows="5"
-                    data-rule="required"
-                    placeholder="Message"
-                    required="required"
-                  ></textarea>
-                  <p class="error">
-                    Message length must be higher than 50 words
-                  </p>
-                  <!-- <div class="field">
+                    <input
+                      type="text"
+                      name="name"
+                      id="fname"
+                      placeholder="Full Name"
+                      required="required"
+                    />
+                    <p class="error">The Name must be more than four letters</p>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="example@gmail.com"
+                      required="required"
+                    />
+                    <p class="error">Please write the email correctly</p>
+                    <input
+                      type="subject"
+                      name="subject"
+                      id="subject"
+                      placeholder="Title"
+                      required="required"
+                    />
+                    <p class="error">The subject can not be empty</p>
+                    <input
+                      type="number"
+                      name="number"
+                      id="number"
+                      placeholder="number:(+977) 9999-999-999"
+                      required="required"
+                    />
+                    <p class="error">
+                      The number length must be greater or equal to 10
+                    </p>
+                    <textarea
+                      type="message"
+                      name="message"
+                      id="message"
+                      rows="5"
+                      data-rule="required"
+                      placeholder="Message"
+                      required="required"
+                    ></textarea>
+                    <p class="error">
+                      Message length must be higher than 50 words
+                    </p>
+                    <!-- <div class="field">
                     <div data-netlify-recaptcha="true"></div>
                   </div> -->
-                  <input type="submit" id="submit" value="send message" />
-                  <!-- <input id="reset" value="reset" /> -->
+                    <input type="submit" id="submit" value="send message" />
+                    <!-- <input id="reset" value="reset" /> -->
+                  </div>
                 </form>
               </div>
               <div class="contact-col">
