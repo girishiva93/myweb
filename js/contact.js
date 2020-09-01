@@ -2,10 +2,10 @@ const form = document.getElementById("form");
 const submit = document.getElementById("submit");
 
 form.addEventListener("submit", (e) => {
-  checkInputs();
   e.preventDefault();
+  checkInputs();
 });
-function checkInputs(e) {
+function checkInputs() {
   var fullName = document.getElementById("fname").value.trim();
   const email = document.getElementById("email").value.trim();
   const subject = document.getElementById("subject").value.trim();
