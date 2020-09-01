@@ -350,17 +350,14 @@
             <div class="contact-row">
               <div class="contact-col">
                 <h5 class="contact-heading">Send Message</h5>
-
-                <form
-                  name="contact"
-                  method="POST"
-                  data-netlify="true"
-                  netlify-honeypot="bot-field"
-                  action="/thanks"
-                >
-                  <div id="form">
+                <div id="form">
+                  <form
+                    name="contact"
+                    method="POST"
+                    data-netlify="true"
+                    netlify-honeypot="bot-field"
+                  >
                     <input name="form-name" value="contact" type="hidden" />
-
                     <input
                       type="text"
                       name="name"
@@ -407,13 +404,12 @@
                     <p class="error">
                       Message length must be higher than 50 words
                     </p>
-                    <!-- <div class="field">
-                    <div data-netlify-recaptcha="true"></div>
-                  </div> -->
+                    <div class="field">
+                      <div data-netlify-recaptcha="true"></div>
+                    </div>
                     <input type="submit" id="submit" value="send message" />
-                    <!-- <input id="reset" value="reset" /> -->
-                  </div>
-                </form>
+                  </form>
+                </div>
               </div>
               <div class="contact-col">
                 <h5 class="contact-heading">Get in Touch</h5>
