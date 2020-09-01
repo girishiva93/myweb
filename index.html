@@ -354,38 +354,37 @@
                 <form
                   name="contact"
                   method="POST"
-                  netlify-honeypot="bot-field"
                   data-netlify="true"
                   id="form"
                 >
-                  <input type="hidden" name="form-name" value="Contact" />
+                  <!-- <input type="hidden" name="form-name" value="Contact" /> -->
                   <input
-                    name="name"
                     type="text"
+                    name="name"
                     id="fname"
                     placeholder="Full Name"
                     required="required"
                   />
                   <p class="error">The Name must be more than four letters</p>
                   <input
+                    type="email"
                     name="email"
-                    type="text"
                     id="email"
                     placeholder="example@gmail.com"
                     required="required"
                   />
                   <p class="error">Please write the email correctly</p>
                   <input
-                    name="title"
                     type="subject"
+                    name="subject"
                     id="subject"
                     placeholder="Title"
                     required="required"
                   />
                   <p class="error">The subject can not be empty</p>
                   <input
-                    name="number"
                     type="number"
+                    name="number"
                     id="number"
                     placeholder="number:(+977) 9999-999-999"
                     required="required"
@@ -394,11 +393,11 @@
                     The number length must be greater or equal to 10
                   </p>
                   <textarea
+                    type="message"
                     name="message"
                     id="message"
                     rows="5"
                     data-rule="required"
-                    data-msg="Please write something for us"
                     placeholder="Message"
                     required="required"
                   ></textarea>
