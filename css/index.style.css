@@ -440,6 +440,7 @@ html {
   margin-left: 28%;
   padding: 10px 24px;
   color: #fff;
+  margin-top: 15px;
   transition: 0.4s;
 }
 #submit:hover {
