@@ -12,6 +12,7 @@
 
   .cover-img {
     background-attachment: fixed;
+    margin-top: 50px;
   }
 
   .intro {
@@ -2002,8 +2003,8 @@
 
   .intro {
     position: absolute;
-    top: 35%;
-    left:-50px;
+    top: 45%;
+    left:-60px;
   }
 
   .intro-title {
