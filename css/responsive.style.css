@@ -885,4 +885,8 @@
     box-shadow: 0 0 0 3px #cde1f8 !important;
     transition: all 500ms ease !important;
   }
+  .verify-col {
+    width: 100%;
+    float: left;
+  }
 }
