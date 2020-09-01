@@ -1,3 +1,11 @@
+document.addEventListener(
+  "contextmenu",
+  function (e) {
+    e.preventDefault();
+  },
+  false
+);
+
 const form = document.getElementById("form");
 const submit = document.getElementById("submit");
 
