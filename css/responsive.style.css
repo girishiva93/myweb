@@ -16,17 +16,17 @@
 
   .intro {
     position: absolute;
-    top: 45%;
+    top: 35%;
   }
 
   .intro-title {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 60px;
     margin-left: 100px;
   }
 
   .intro-subtitle {
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     color: #ffffff;
     margin-top: -20px;
@@ -48,19 +48,19 @@
   .col-about {
     float: none;
     margin-top: 40px;
-    width: 80% !important;
+    width: 95% !important;
     margin-bottom: 40px;
     margin-left: 40px;
   }
 
   .title-col {
-    width: 95%;
+    width: 100%;
     text-align: justify;
     position: relative;
     
   }
   .downlaodcv {
-    width: 50%;
+    width: 40%;
     cursor: pointer;
     color: white;
     background-color: DodgerBlue;
@@ -69,13 +69,13 @@
     height: 40px;
     position: absolute;
     top: 70%;
-    left: 40%;
+    left: 30%;
   }
   .profile {
     width: auto;
     margin-bottom: 10px;
     margin-right: auto;
-    margin-left: 40%;
+    margin-left: 50%;
   }
   .title-s {
     font-weight: 600;
@@ -112,6 +112,7 @@
     align-items: center;
     height: 100%;
     margin-left: 0px;
+   
   }
 
   .skills {
@@ -2002,11 +2003,13 @@
   .intro {
     position: absolute;
     top: 35%;
+    left:-50px;
   }
 
   .intro-title {
     color: #ffffff;
     font-size: 25px;
+    margin-left: 0pxs;
   }
 
   .intro-subtitle {
@@ -2014,6 +2017,7 @@
     text-align: center;
     color: #ffffff;
     margin-top: -20px;
+   
   }
   /* index.html end */
 
@@ -2046,9 +2050,12 @@
     cursor: pointer;
     color: white;
     background-color: DodgerBlue;
-    margin-left: 17%;
+    margin-left: 22%;
     border: none;
     height: 40px;
+    position: relative; 
+    top: 0%;
+    left:0%;
   }
   .profile {
     width: auto;
