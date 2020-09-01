@@ -351,9 +351,15 @@
             <div class="contact-row">
               <div class="contact-col">
                 <h5 class="contact-heading">Send Message</h5>
-                <form name="record" id="form" action="POST" data-netlify="true">
+                <form
+                  name="record"
+                  action="POST"
+                  netlify-honeypot="bot-field"
+                  data-netlify="true"
+                  id="form"
+                >
                   <input
-                    name="Full Name"
+                    name="fName"
                     type="text"
                     id="fname"
                     placeholder="Full Name"
@@ -369,7 +375,7 @@
                   />
                   <p class="error">Please write the email correctly</p>
                   <input
-                    name="Title "
+                    name="title "
                     type="subject"
                     id="subject"
                     placeholder="Title"
@@ -398,9 +404,9 @@
                   <p class="error">
                     Message length must be higher than 50 words
                   </p>
-                  <div class="field">
+                  <!-- <div class="field">
                     <div data-netlify-recaptcha="true"></div>
-                  </div>
+                  </div> -->
 
                   <input type="submit" id="submit" value="send message" />
                   <input type="reset" id="reset" value="reset" />
