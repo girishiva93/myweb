@@ -351,40 +351,35 @@
             <div class="contact-row">
               <div class="contact-col">
                 <h5 class="contact-heading">Send Message</h5>
-                <form
-                  name="contact"
-                  id="form"
-                  action="POST"
-                  data-netlify="true"
-                >
+                <form name="record" id="form" action="POST" data-netlify="true">
                   <input
+                    name="Full Name"
                     type="text"
                     id="fname"
-                    name="Full Name"
                     placeholder="Full Name"
                     required="required"
                   />
                   <p class="error">The Name must be more than four letters</p>
                   <input
+                    name="email"
                     type="text"
                     id="email"
-                    name="email"
                     placeholder="example@gmail.com"
                     required="required"
                   />
                   <p class="error">Please write the email correctly</p>
                   <input
+                    name="Title "
                     type="subject"
                     id="subject"
-                    name="Title "
                     placeholder="Title"
                     required="required"
                   />
                   <p class="error">The subject can not be empty</p>
                   <input
+                    name="number"
                     type="number"
                     id="number"
-                    name="number"
                     placeholder="number:(+977) 9999-999-999"
                     required="required"
                   />
@@ -392,8 +387,8 @@
                     The number length must be greater or equal to 10
                   </p>
                   <textarea
-                    id="message"
                     name="message"
+                    id="message"
                     rows="5"
                     data-rule="required"
                     data-msg="Please write something for us"
